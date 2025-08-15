@@ -15,7 +15,7 @@
 [clone : clone] + test -z 
 [clone : clone] + test -z 
 [clone : clone] + git config --global --add safe.directory /workspace/output
-[clone : clone] + /ko-app/git-init '-url=https://github.com/Silvafox76/devops-capstone-project.git' '-revision=cd-pipeline' '-refspec=' '-path=/workspace/output/' '-sslVerify=true' '-submodules=false' '-depth=1' '-sparseCheckoutDirectories='
+[clone : clone] + /ko-app/git-init '-url=https://github.com/abhinavvb-code/devops-capstone-project.git' '-revision=cd-pipeline' '-refspec=' '-path=/workspace/output/' '-sslVerify=true' '-submodules=false' '-depth=1' '-sparseCheckoutDirectories='
 [clone : clone] {"level":"info","ts":1745451487.0736735,"caller":"git/git.go:176","msg":"Successfully cloned https://github.com/Silvafox76/devops-capstone-project.git @ 10cf41264a187cde44148fc87ad9c1226517101c (grafted, HEAD, origin/cd-pipeline) in path /workspace/output/"}
 [clone : clone] + cd /workspace/output/
 [clone : clone] + git rev-parse HEAD
